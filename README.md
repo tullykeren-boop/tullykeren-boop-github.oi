@@ -1,3 +1,24 @@
+# Workspace
+
+Two independent full-stack applications live in this repository.
+
+---
+
+## GoalCoach — AI Coaching System (`coaching/`)
+
+Converts vague user goals into structured, week-by-week execution plans using GPT-4o mini.
+See [`coaching/README.md`](coaching/README.md) for full setup instructions.
+
+**Requires:** `OPENAI_API_KEY` environment variable.
+
+```bash
+cd coaching && npm run install:all
+npm run dev:api   # http://localhost:4001
+npm run dev:app   # http://localhost:5174
+```
+
+---
+
 # TaskFlow
 
 A modern full-stack task management application built with **React + TypeScript + Vite** on the frontend and **Express + TypeScript** on the backend.
